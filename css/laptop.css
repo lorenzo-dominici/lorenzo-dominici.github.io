@@ -1,0 +1,35 @@
+.ma-article {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "title" "img" "content" "related";
+}
+
+section:not(#trending, #main-topics) {
+    grid-template-columns: 24fr 10fr;
+}
+
+#main-article > .contents {
+    grid-template-columns: 24fr 10fr;
+}
+
+.articles {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "article-1" "article-2" "article-3" "article-4";
+}
+
+.article {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.25rem;
+}
+
+.article > img {
+    flex: 27;
+    width: auto;
+}
+
+.article > .title {
+    flex: 20;
+    font-size: 1.125rem;
+}
