@@ -362,6 +362,7 @@ header > nav > a:hover {
 
 .trending-bar {
     max-width: 100%;
+    padding: 0 2.5%;
     margin: 0 0;
     border-top: 1px solid var(--color-border);
 }
